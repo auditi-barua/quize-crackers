@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    background-color:white; 
+    justify-content: space-between;
+  
+    
+}
+.nav h3{
+    padding-left: 25px;
+    font-weight: 700;
+    color: purple;
+   
+}
+ .nav a{
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: green;
+    
+}
+.header img{
+    width: 200px;
+    margin-top: 10px;
+   margin-right: 250px;
+}
