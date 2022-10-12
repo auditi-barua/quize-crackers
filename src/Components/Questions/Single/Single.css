@@ -21,9 +21,14 @@
 .option{
     cursor: pointer;
 }
-@media screen and(max-width) {
+@media screen and(max-width:1100px) {
     .option-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
+    }
+
+}
+@media screen and(max-width:600px){
+    .option-container{
+        grid-template-columns: 1fr;
     }
 }
