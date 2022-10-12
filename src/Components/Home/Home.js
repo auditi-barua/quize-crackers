@@ -5,13 +5,16 @@ import './Home.css'
 
 const Home = () => {
     const {data} = useLoaderData();
-    console.log(data);
+    const handleAddToQuiz = data => {
+        console.log(data);
+    }
     return (
         <div className="quiz-container">
            {
                 data.map(data => <Quiz
                 key={data.id}
                 data={data}
+                handleAddToQuiz={handleAddToQuiz}
                 ></Quiz>)
             }
         </div>
