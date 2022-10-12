@@ -14,8 +14,6 @@ const Header = () => {
           <NavLink to='/topic'>Topic</NavLink>
         </nav>
       </nav>
-      {/* <img src='img/Quizizz.png' alt='' />
-      <p>Quizizz is an Indian educational software company headquartered in Bengaluru, India, that creates and sells a gamified student engagement platform. The software is used in class, group assignments, pre-test review, formative assessments and pop quizzes.</p> */}
     </div>
 
   );
