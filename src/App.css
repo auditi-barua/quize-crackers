@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
-
+.active{
+  background: rgb(245, 108, 245);
+}
+.container{
+  width: 90%;
+  margin: auto
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

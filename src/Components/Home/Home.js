@@ -9,7 +9,7 @@ const Home = () => {
         console.log(data);
     }
     return (
-        <div className="quiz-container">
+        <div className="quiz-container container">
            {
                 data.map(data => <Quiz
                 key={data.id}
@@ -20,5 +20,6 @@ const Home = () => {
         </div>
     );
 };
+
 
 export default Home;

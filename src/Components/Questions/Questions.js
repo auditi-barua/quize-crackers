@@ -24,7 +24,7 @@ const Questions = () => {
     return (
         <div >
             <h2>This is Question</h2>
-            <div className="question">
+            <div className="container">
                 {
                     questions.map(single => <Single handle_answer={handle_answer} notifyAnswer={notifyAnswer} key={single.id} single={single}></Single>)
                 }

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Single.css';
 
+
 const Single = ({ single, handle_answer, notifyAnswer }) => {
     const { question, options, correctAnswer } = single;
     console.log(correctAnswer)
