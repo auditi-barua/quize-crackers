@@ -1,0 +1,23 @@
+.quiz{   
+    margin-left: 80px;
+    margin-top: 15px;
+    
+}
+.quiz img{
+    height: 250px;
+    background-color: darkcyan;
+    border: 1px solid ghostwhite;
+    border-radius: 10px;
+}
+.quiz h2{
+    color: #000;
+    padding-right: 150px;
+}
+.quiz p{
+    color: #000;
+    padding-right: 180px;
+}
+.quiz button{
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
