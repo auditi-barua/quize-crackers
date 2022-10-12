@@ -7,9 +7,12 @@ const Single = ({single}) => {
         <div >
             <div className='queistion'>
                 <h3>{question} </h3>
-                {
+                    {
                     options.map(option => <p>{option}</p>)
+                   
                 }
+                
+               
             </div>
         </div>
     );
