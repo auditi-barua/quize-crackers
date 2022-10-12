@@ -7,15 +7,15 @@ const Header = () => {
       <div className='header'>
           <nav className='nav'>
           <h3>Quizizz</h3>
-            
+            <div className='link'>
             <Link to={''}>Home</Link>
             <Link to={''}>StaticPage</Link>
             <Link to={''}>Blog</Link>
             <Link to={''}>Topics</Link>
-            
+            </div>
         </nav>
         <img src='img/Quizizz.png' alt=''/>
-        <p>Quizizz is an Indian educational software company headquartered in Bengaluru, India, that creates and sells a gamified student engagement platform. The software is used in class, group assignments, pre-test review, formative assessments and pop quizzes.</p>
+       <p>Quizizz is an Indian educational software company headquartered in Bengaluru, India, that creates and sells a gamified student engagement platform. The software is used in class, group assignments, pre-test review, formative assessments and pop quizzes.</p>
       </div>
       
     );

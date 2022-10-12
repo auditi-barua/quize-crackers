@@ -1,26 +1,20 @@
 .nav{
     display: flex;
     background-color:white; 
-    justify-content: space-between;
-  
-    
+    justify-content: space-between;    
 }
 .nav h3{
-    padding-left: 25px;
     font-weight: 700;
     color: purple;
-   
+    margin-left: 20px;
 }
- .nav a{
-    padding-left: 10px;
-    padding-right: 15px;
-    padding-top: 15px;
+ .link a{    
     text-decoration: none;
-    color: green;
-    
+    color: purple;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 .header img{
     width: 200px;
-    margin-top: 10px;
-   margin-right: 250px;
+    margin-top: 10px;  
 }
