@@ -11,6 +11,7 @@ const Questions = () => {
 
     const notifyCurrect = () => toast.success("Currect Answer");
     const notifyWrong = () => toast.error("Wrong Aanswer");
+    const notifyAnswer = (ans)=>{toast.info("Right Ans is " + ans)}
 
     const handle_answer = (option, currectAnswer) => {
         if(option === currectAnswer){
@@ -25,7 +26,7 @@ const Questions = () => {
             <h2>This is Question</h2>
             <div className="question">
                 {
-                    questions.map(single => <Single handle_answer={handle_answer} key={single.id} single={single}></Single>)
+                    questions.map(single => <Single handle_answer={handle_answer} notifyAnswer={notifyAnswer} key={single.id} single={single}></Single>)
                 }
             </div>
             <ToastContainer></ToastContainer>

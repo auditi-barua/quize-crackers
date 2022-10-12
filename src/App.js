@@ -4,6 +4,8 @@ import Main from './layouts/Main';
 import Home from './Components/Home/Home';
 import Question from './Components/Questions/Questions';
 import Blog from './Components/Blog/Blog';
+import Statictis from './Components/Statictics/Statictis';
+import ErrorPage from './Components/404page/ErrorPage';
 
 
 function App() {
@@ -29,6 +31,15 @@ function App() {
         {
           path:'/blog',
           element:<Blog></Blog>
+        },
+        {
+          path:'/statistics',
+          loader:()=>fetch('https://openapi.programming-hero.com/api/quiz'),
+          element:<Statictis></Statictis>
+        },
+        {
+          path:'*',
+          element: <ErrorPage></ErrorPage>,
         }
       ]
     }
